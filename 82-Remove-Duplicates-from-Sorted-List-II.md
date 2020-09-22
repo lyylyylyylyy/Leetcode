@@ -1,7 +1,11 @@
 ---
-title: [leetcode]82-Remove-Duplicates-from-Sorted-List-II(JavaScript)
-categories: [Leetcode,JavaScript]
-tags: [Leetcode,JavaScript]
+title: 82-Remove-Duplicates-from-Sorted-List-II
+categories: Leetcode-JavaScript
+tags: 
+- Leetcode
+- javascript
+- java
+- link list
 comment: true
 mathjax: false
 date: 2020-09-05 22:46:23

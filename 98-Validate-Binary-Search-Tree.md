@@ -1,8 +1,12 @@
 ---
 title: 98-Validate-Binary-Search-Tree
 date: 2020-09-08 21:42:13
-tags: Leetcode-JavaScript
-category: Leetcode-JavaScript
+category: Leetcode
+tags: 
+- Leetcode
+- javascript
+- java
+- tree
 ---
 
 ## 问题描述

@@ -15,7 +15,7 @@ tags:
 Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
 
 Note: The solution set must not contain duplicate subsets.
-
+<!--more-->
 Example:
 
 ```
@@ -30,6 +30,8 @@ Output:
   []
 ]
 ``` 
+
+
 
 ## 解题思路
 
@@ -119,4 +121,5 @@ private:
 ```
 
 时间复杂度：O(n2)
+
 空间复杂度：O(n2)

@@ -1,8 +1,13 @@
 ---
 title: 96-Unique-Binary-Search-Trees
 date: 2020-09-07 21:45:33
-tags: Leetcode-JavaScript
-categories: Leetcode-JavaScript
+categories: Leetcode
+tags: 
+- Leetcode
+- javascript
+- java
+- dynamic planning
+- binary search tree
 ---
 
 ## 问题描述

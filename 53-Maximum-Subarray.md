@@ -2,7 +2,9 @@
 title: 53. Maximum Subarray
 date: 2020-07-29 22:44:40
 categories: Leetcode
-tags: Leetcode
+tags: 
+- Leetcode
+- javascript
 comment: true
 mathjax: true
 ---

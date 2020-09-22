@@ -1,7 +1,10 @@
 ---
 title: 79-Word-Search
 date: 2020-09-03 21:07:27
-tags: Leetcode-JavaScript
+tags: 
+- Leetcode
+- javascript
+- backtracking
 category: Leetcode-JavaScript
 ---
 
