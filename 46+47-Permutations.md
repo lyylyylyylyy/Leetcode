@@ -1,6 +1,6 @@
 ---
 date: 2020-8-08
-title: 47. Permutations II
+title: Permutations II
 categories: Leetcode
 tags: 
 - Leetcode
@@ -10,6 +10,8 @@ mathjax: true
 ---
 
 ## 问题描述
+
+- Permutations II
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
@@ -64,3 +66,54 @@ var permuteUnique = function(nums) {
     return result;
 };
 ```
+
+- Permutations
+
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+
+Example 1:
+
+```
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+```
+
+Example 2:
+```
+Input: nums = [0,1]
+Output: [[0,1],[1,0]]
+```
+
+Example 3:
+```
+Input: nums = [1]
+Output: [[1]]
+```
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var permute = function(nums) {
+    const arr = [];
+    permuted(arr, [], nums);
+    return arr;
+    
+    function permuted(arr, tempArr, nums) {
+        if (tempArr.length === nums.length) {
+            arr.push(tempArr.slice());
+        } else {
+            nums.map(n => {
+                if (tempArr.indexOf(n) === -1) {
+                    tempArr.push(n);
+                    permuted(arr, tempArr, nums);
+                    tempArr.pop();
+                }
+            });
+        }
+    }
+};
+```
+
+- 时间复杂度：O(n!)
